@@ -7,7 +7,7 @@ public class MyJDBC {
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/login_schema",
                     "root",
-                    " password"
+                    "Danang2018@"
             );
 
         Statement statement = connection.createStatement();
